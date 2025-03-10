@@ -4,8 +4,9 @@ import resources from './default';
 
 export const locales = [
   'en-US',
-  'zh-CN',
   'fa-IR',
+  'zh-CN',
+  'af'
 ] as const;
 
 export type DefaultResources = typeof resources;
@@ -14,12 +15,8 @@ export type Locales = (typeof locales)[number];
 
 export const normalizeLocale = (locale?: string): string => {
   if (!locale) return DEFAULT_LANG;
-
-  if (locale.startsWith('ar')) return 'ar';
   if (locale.startsWith('fa')) return 'fa-IR';
-
-  if (locale.startsWith('cn')) return 'zh-CN';
-
+  if (locale.startsWith('af')) return 'fa-IR';
   for (const l of locales) {
     if (l.startsWith(locale)) {
       return l;
@@ -38,11 +35,11 @@ export const localeOptions: LocaleOptions = [
   {
     label: 'English',
     value: 'en-US',
-  },  
+  },
   {
     label: 'فارسی',
     value: 'fa-IR',
   },
 ] as LocaleOptions;
 
-export const supportLocales: string[] = [...locales, 'en', 'zh'];
+export const supportLocales: string[] = [...locales, 'en', 'fa'];
