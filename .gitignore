@@ -7,7 +7,6 @@
 .vscode
 .history
 .temp
-.env.local
 venv
 temp
 tmp
@@ -40,12 +39,6 @@ test-output
 # husky
 .husky/prepare-commit-msg
 
-# misc
-# add other ignore file below
-
-# local env files
-.env*.local
-
 # vercel
 .vercel
 
@@ -53,7 +46,6 @@ test-output
 *.tsbuildinfo
 next-env.d.ts
 .next
-.env
 public/*.js
 public/sitemap.xml
 public/sitemap-index.xml
