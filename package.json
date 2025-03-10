@@ -30,6 +30,8 @@
   ],
   "scripts": {
     "build": "next build",
+    "build:turbo": "TURBO_CACHE_DIR='.turbo' NODE_OPTIONS='--max-old-space-size=4096' next build",
+    "build:swc": "NODE_OPTIONS='--max-old-space-size=4096' NEXT_JS_IGNORE_ESLINT=1 NEXT_JS_IGNORE_TYPECHECK=1 next build",
     "postbuild": "npm run build-sitemap && npm run build-migrate-db",
     "build-migrate-db": "bun run db:migrate",
     "build-sitemap": "tsx ./scripts/buildSitemapIndex/index.ts",
