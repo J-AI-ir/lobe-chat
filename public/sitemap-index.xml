@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<sitemap>
+<loc>https://lobechat.com/sitemap/pages.xml</loc>
+<lastmod>2025-03-10T08:07:04.238Z</lastmod>
+</sitemap>
+<sitemap>
+<loc>https://lobechat.com/sitemap/assistants.xml</loc>
+<lastmod>2025-03-10T08:07:04.238Z</lastmod>
+</sitemap>
+<sitemap>
+<loc>https://lobechat.com/sitemap/plugins.xml</loc>
+<lastmod>2025-03-10T08:07:04.238Z</lastmod>
+</sitemap>
+<sitemap>
+<loc>https://lobechat.com/sitemap/models.xml</loc>
+<lastmod>2025-03-10T08:07:04.238Z</lastmod>
+</sitemap>
+<sitemap>
+<loc>https://lobechat.com/sitemap/providers.xml</loc>
+<lastmod>2025-03-10T08:07:04.238Z</lastmod>
+</sitemap>
+</sitemapindex>
